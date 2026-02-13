@@ -1,0 +1,28 @@
+{
+    "name": "commercex-platform",
+    "version": "1.0.0",
+    "description": "Enterprise-Grade Event-Driven Microservices Backend Platform",
+    "scripts": {
+        "start:infra": "docker-compose up -d",
+        "stop:infra": "docker-compose down",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "microservices",
+        "kafka",
+        "nodejs",
+        "ecommerce"
+    ],
+    "author": "",
+    "license": "ISC",
+    "workspaces": [
+        "api-gateway",
+        "user-service",
+        "product-service",
+        "order-service",
+        "payment-service",
+        "inventory-service",
+        "notification-service",
+        "shared-lib"
+    ]
+}

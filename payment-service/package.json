@@ -1,0 +1,23 @@
+{
+    "name": "payment-service",
+    "version": "1.0.0",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-rate-limit": "^8.2.1",
+        "helmet": "^7.1.0",
+        "kafkajs": "^2.2.4",
+        "mongoose": "^8.3.0",
+        "shared-lib": "^1.0.0",
+        "winston": "^3.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}

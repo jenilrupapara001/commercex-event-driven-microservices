@@ -1,0 +1,10 @@
+{
+    "name": "shared-lib",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "description": "Shared utilities and middlewares for CommerceX",
+    "dependencies": {
+        "kafkajs": "^2.2.4",
+        "winston": "^3.19.0"
+    }
+}
